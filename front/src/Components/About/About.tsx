@@ -7,7 +7,7 @@ const About = () => {
     return (
         <Grid >
             <Grid container item xs={12} style={{ margin: "auto" }}>
-                <Grid item xs={8} >
+                <Grid item xs={8} style={{ margin: "auto" }}>
                     <Box className={classes.mainDiv}>
                         <p className={classes.headerText}>ABOUT US</p>
                         <p className={classes.subHeading}>We are interior design agency with
