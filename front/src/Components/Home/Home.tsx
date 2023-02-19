@@ -6,6 +6,8 @@ import ProductInfo from './../ProductInfo/ProductInfo';
 import InteriorDisplay from '../InteriorDesign/InteriorDisplay';
 import Wonder from './../Wonder/Wonder';
 import About from '../About/About';
+import LetterNews from '../NewsLetter/LetterNews';
+import StepperWonder from '../Wonder/StepperWonder';
 
 const Home = () => {
     return (
@@ -14,8 +16,11 @@ const Home = () => {
           <Cart/>
           <ProductInfo/>
           <InteriorDisplay />
-          <About/>
           <Wonder/>
+          {/* <StepperWonder/> */}
+          <About/>
+          <LetterNews />
+        
         </div>
     );
 };

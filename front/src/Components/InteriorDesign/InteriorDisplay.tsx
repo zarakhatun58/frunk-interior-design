@@ -62,7 +62,7 @@ const InteriorDisplay = () => {
                     ))
                 }
             </Grid>
-            <Grid style={{width:"100%"}}>
+            <Grid style={{width:"100%",height: "60px"}}>
                 <Box style={{ display: "flex", justifyContent: "center", backgroundColor:"black", color:"white", borderRadius:"20px", margin:"auto", width:"35%" }}>
                     <div>
                         Explore 100’s of possibilities! schedule a call back
