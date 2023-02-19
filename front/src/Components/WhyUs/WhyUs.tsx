@@ -31,7 +31,7 @@ const WhyUs = () => {
         <Grid container item xs={12} >
             <Grid item xs={12}>
                 <div style={{
-                    backgroundColor: "black", width: "50px", color: "white", borderRadius: "10px", margin: "auto", fontSize: "25px",
+                    backgroundColor: "black", width: "100px", color: "white", borderRadius: "20px", margin: "auto", fontSize: "25px",
                     padding: " 0px 1px 5px 2px"
                 }}>
                     why us
