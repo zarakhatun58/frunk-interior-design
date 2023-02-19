@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 import React from 'react';
 import { useStyles } from './Styles';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
@@ -12,55 +12,65 @@ import furniture6 from "../../Assets/Images/furniture6.jpeg";
 const InteriorDisplay = () => {
     const classes = useStyles();
 
-const products=[
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture1,
-    },
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture2,
-    },
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture3,
-    },
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture4,
-    },
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture5,
-    },
-    {
-        title:"Interior Display",
-        icon:<KeyboardDoubleArrowRightIcon/>,
-        image:furniture6,
-    },
-]
+    const products = [
+        {
+            title: "Futuristic living room",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture1,
+        },
+        {
+            title: "Elegant Kitchen Designs",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture2,
+        },
+        {
+            title: "Luxurious Bedroom Interiors",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture3,
+        },
+        {
+            title: "Kids Bedroom Design",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture4,
+        },
+        {
+            title: "Space Saving Designs",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture5,
+        },
+        {
+            title: "Bathroom Designs",
+            icon: <KeyboardDoubleArrowRightIcon />,
+            image: furniture6,
+        },
+    ]
 
     return (
-        <Grid container spacing={2} item xs={12} >
+        <Grid container spacing={2} item xs={12} style={{ paddingTop: "10px" }}>
             <Grid className={classes.DesignContainer}>
                 {
-                    products.map( (product) =>(
+                    products.map((product) => (
                         <Grid className={classes.cart}>
-                            <div style={{display:"flex", justifyContent:"space-between", width:"300px", padding:"10px"}}>
+                            <div className={classes.TextCart}>
                                 <div>{product.title}</div>
-                                <div>{product.icon}</div>
+                                <div style={{ paddingLeft: "15px" }}>{product.icon}</div>
                             </div>
                             <div>
-                                <img src={product.image} alt=""  style={{width:"350px", height:"200px", margin:"20px"}}/>
+                                <img src={product.image} alt="" style={{ width: "370px", height: "230px", }} />
                             </div>
                         </Grid>
                     ))
                 }
+            </Grid>
+            <Grid style={{width:"100%"}}>
+                <Box style={{ display: "flex", justifyContent: "center", backgroundColor:"black", color:"white", borderRadius:"20px", margin:"auto", width:"35%" }}>
+                    <div>
+                        Explore 100’s of possibilities! schedule a call back
+                    </div>
+                    <div style={{paddingLeft:"25px"}}>
+                        <KeyboardDoubleArrowRightIcon />
+                    </div>
+                </Box>
             </Grid>
 
         </Grid>

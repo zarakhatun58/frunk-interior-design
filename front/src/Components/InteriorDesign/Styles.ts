@@ -12,15 +12,15 @@ export const useStyles = makeStyles({
     DesignContainer: {
         display: "grid",
         gridTemplateColumns: "repeat( 3, 1fr)",
-        margin: "15px",
-       
+        margin: "auto",
+
 
     },
     cart: {
-        width: "400px",
+        width: "380px",
         height: "300px",
         boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-        margin:"20px"
+        margin: "10px"
     },
 
     smallBox: {
@@ -35,14 +35,11 @@ export const useStyles = makeStyles({
         backgroundColor: "white", height: "100px", width: "100%",
         margin: "30px",
     },
-    yellowCart: {
-        backgroundColor: 'yellow',
-        width: "200px",
-        height: "80px",
-        margin: "10px",
-        padding: "10px",
+    TextCart: {
         display: "flex",
-        justifyContent: "space-between",
+        justifyContent: "center",
+        width: "100%",
+        padding: "10px 0px 0px 0px"
     },
     pText: {
         fontSize: "12px",

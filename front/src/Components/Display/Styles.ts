@@ -11,7 +11,7 @@ export const useStyles = makeStyles({
   },
   displayBox:{
     boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-    width:"500px",
+    width:"750px",
     height:"300px",
     // backgroundColor:"#a7a0a0",
     margin:"20px"

@@ -15,7 +15,7 @@ const Footer = () => {
                 }}
             >
                 <Container maxWidth="lg">
-                    <Grid  container item xs={12} direction="column" alignItems="center">
+                    <Grid  container item xs={12} >
                         <Grid item xs={2}>
                            <List>
                             <ListItem>
@@ -25,41 +25,196 @@ const Footer = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemText>
-                                About Furnko
+                                Careers
                                 </ListItemText>   
                             </ListItem>
                             <ListItem>
                                 <ListItemText>
-                                    Lorem Ipsum
+                                Partner/sell with us
                                 </ListItemText>   
                             </ListItem>
                             <ListItem>
                                 <ListItemText>
-                                    Lorem Ipsum
+                                Design for us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Business Query
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Press
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Privacy policy
                                 </ListItemText>   
                             </ListItem>
 
                            </List>
                         </Grid>
                         <Grid item xs={2}>
-                            <Typography color="textSecondary" variant="subtitle1">
-                                {`${new Date().getFullYear()} | React | Material UI | React Router`}
-                            </Typography>
+                        <List>
+                            <ListItem>
+                                <ListItemText>
+                                About Furnko
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Careers
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Partner/sell with us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Design for us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Business Query
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Press
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Privacy policy
+                                </ListItemText>   
+                            </ListItem>
+
+                           </List>
                         </Grid>
                         <Grid item xs={3}>
-                            <Typography color="textSecondary" variant="subtitle1">
-                                {`${new Date().getFullYear()} | React | Material UI | React Router`}
-                            </Typography>
+                        <List>
+                            <ListItem>
+                                <ListItemText>
+                                About Furnko
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Careers
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Partner/sell with us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Design for us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Business Query
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Press
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Privacy policy
+                                </ListItemText>   
+                            </ListItem>
+
+                           </List>
                         </Grid>
                         <Grid item xs={2}>
-                            <Typography color="textSecondary" variant="subtitle1">
-                                {`${new Date().getFullYear()} | React | Material UI | React Router`}
-                            </Typography>
+                        <List>
+                            <ListItem>
+                                <ListItemText>
+                                About Furnko
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Careers
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Partner/sell with us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Design for us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Business Query
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Press
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Privacy policy
+                                </ListItemText>   
+                            </ListItem>
+
+                           </List>
                         </Grid>
                         <Grid item xs={2}>
-                            <Typography color="textSecondary" variant="subtitle1">
-                                {`${new Date().getFullYear()} | React | Material UI | React Router`}
-                            </Typography>
+                        <List>
+                            <ListItem>
+                                <ListItemText>
+                                About Furnko
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Careers
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Partner/sell with us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Design for us
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Business Query
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Press
+                                </ListItemText>   
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText>
+                                Privacy policy
+                                </ListItemText>   
+                            </ListItem>
+
+                           </List>
                         </Grid>
                     </Grid>
                 </Container>
