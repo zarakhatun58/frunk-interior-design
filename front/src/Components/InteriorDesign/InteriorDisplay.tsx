@@ -1,4 +1,4 @@
-import { Grid, Box } from '@mui/material';
+import { Grid, Box, Menu, MenuItem } from '@mui/material';
 import React from 'react';
 import { useStyles } from './Styles';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
@@ -43,8 +43,14 @@ const InteriorDisplay = () => {
             icon: <KeyboardDoubleArrowRightIcon />,
             image: furniture6,
         },
-    ]
-
+    ];
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const handleMouseOver = (event: any) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
     return (
         <Grid container spacing={2} item xs={12} style={{ paddingTop: "10px" }}>
             <Grid className={classes.DesignContainer}>
@@ -53,7 +59,20 @@ const InteriorDisplay = () => {
                         <Grid className={classes.cart}>
                             <div className={classes.TextCart}>
                                 <div>{product.title}</div>
-                                <div style={{ paddingLeft: "15px" }}>{product.icon}</div>
+                                <div style={{ paddingLeft: "15px" }} onMouseOver={handleMouseOver}>{product.icon}</div>
+                                <Menu
+                                // className={classes.dropdown}
+                                anchorEl={anchorEl}
+                                keepMounted
+                                open={Boolean(anchorEl)}
+                                onClose={handleClose}>
+                                <MenuItem onClick={handleClose}>Futuristic living room</MenuItem>
+                                <MenuItem onClick={handleClose}>Elegant Kitchen Designs</MenuItem>
+                                <MenuItem onClick={handleClose}>Luxurious Bedroom Interiors</MenuItem>
+                                <MenuItem onClick={handleClose}>Kids Bedroom Design</MenuItem>
+                                <MenuItem onClick={handleClose}>Space Saving Designs</MenuItem>
+                                <MenuItem onClick={handleClose}>Bathroom Designs</MenuItem>
+                            </Menu>
                             </div>
                             <div>
                                 <img src={product.image} alt="" style={{ width: "370px", height: "230px", }} />
