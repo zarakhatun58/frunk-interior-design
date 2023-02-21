@@ -9,6 +9,8 @@ import About from '../About/About';
 import LetterNews from '../NewsLetter/LetterNews';
 import StepperWonder from '../Wonder/StepperWonder';
 import WhyUs from '../WhyUs/WhyUs';
+import Platform from '../Platform/Platform';
+import ClickableBox from '../ClickableBox/ClickableBox';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
           <Cart/>
           <ProductInfo/>
           <InteriorDisplay />
+          <Platform/>
+          <ClickableBox/>
           <Wonder/>
           <WhyUs/>
           {/* <StepperWonder/> */}
