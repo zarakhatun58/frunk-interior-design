@@ -7,12 +7,15 @@ export const useStyles = makeStyles({
     menuPart: {
         // width:"400px",
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "space-between",
+        margin:"auto"
     },
     mainDiv: {
         textAlign: "justify",
         maxWidth: "620px",
-        margin: "10px 0px 20px 15px"
+        margin: "10px 0px 10px 97px",
+        // display: "flex",
+        // justifyContent: "center",
     },
     headerText: {
         backgroundColor: "yellow",
@@ -51,8 +54,8 @@ export const useStyles = makeStyles({
         display: "grid",
         gridTemplateColumns: "repeat(2,1fr)",
         gap: "10px",
-        width:" 50%",
-        marginTop:" 26%",
+        width: " 50%",
+        marginTop: " 26%",
     }
 
 });
