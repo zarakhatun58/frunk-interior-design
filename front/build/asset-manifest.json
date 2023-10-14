@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.adf1f847.js",
+    "static/js/787.cde61485.chunk.js": "/static/js/787.cde61485.chunk.js",
+    "static/media/furniture2.jpeg": "/static/media/furniture2.cd4cbc506321b8526347.jpeg",
+    "static/media/furniture3.jpeg": "/static/media/furniture3.b041bf07ace3c1cc008c.jpeg",
+    "static/media/furniture1.jpeg": "/static/media/furniture1.412718b17204d400df4c.jpeg",
+    "static/media/furniture5.jpeg": "/static/media/furniture5.0fc3d10c7b15f73aa742.jpeg",
+    "static/media/furniture6.jpeg": "/static/media/furniture6.416fbb5f3203d065456b.jpeg",
+    "static/media/furniture4.jpeg": "/static/media/furniture4.e7cbd475c6827c45c119.jpeg",
+    "static/media/interior-design.png": "/static/media/interior-design.e3271bc754f689b1d7ed.png",
+    "static/media/building.png": "/static/media/building.2e8bbeeae31b20e80d98.png",
+    "static/media/dinner-table.png": "/static/media/dinner-table.4d6611468f9fcdac79ad.png",
+    "static/media/kitchen.png": "/static/media/kitchen.f9239a3a19fe9c7e55cb.png",
+    "static/media/bedroom.png": "/static/media/bedroom.8f96363b7f8ffbc198a0.png",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.adf1f847.js.map": "/static/js/main.adf1f847.js.map",
+    "787.cde61485.chunk.js.map": "/static/js/787.cde61485.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.adf1f847.js"
+  ]
+}
